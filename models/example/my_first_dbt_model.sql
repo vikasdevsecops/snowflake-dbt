@@ -11,13 +11,11 @@
 
 with source_data as (
 
-    select 5 as id
-    union all
-    select 7 as id
-
+    select 5 as id,'vikas' as name
+    
 )
 
-select sum(id) as data
+select id ,'sanjay' as name
 from source_data
 
 /*
